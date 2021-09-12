@@ -51,7 +51,7 @@ local mouse = player:GetMouse()
 local camera = workspace.CurrentCamera
     local p = Input or {MoveMouse = nil} --Setup for ProtoSmasher mouse movement.
 local MoveMouse = mousemoverel or p.MoveMouse --Get the mouse move function.
-local gui = game:GetObjects("rbxassetid://7465959388")[1]
+local gui = game:GetObjects("rbxassetid://7465921036")[1]
 gui.Parent = game:GetService("CoreGui")
     local main = gui.Main
     local top = main.Top
