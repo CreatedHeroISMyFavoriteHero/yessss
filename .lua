@@ -199,11 +199,11 @@ else --Otherwise, if the function does exist, then execute this code
    
     function toggle (button)
         if button.BackgroundColor3 == Color3.new(0, 0, 0) then
-            button.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
+            button.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
             button.TextColor3 = Color3.new(0, 0, 0)
         else
             button.BackgroundColor3 = Color3.new(0, 0, 0)
-            button.TextColor3 = Color3.fromRGB(85, 0, 127)
+            button.TextColor3 = Color3.fromRGB(156, 0, 0)
         end
     end
    
